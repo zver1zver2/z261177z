@@ -1,0 +1,28 @@
+body {
+	background-color: #FFF2E7;
+	color: #3D3C3A;
+}
+h1 {
+	font-family: Lobster;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: #30302F;
+}
+
+h3 {
+	font-family: 'Amatic SC';
+	font-size: 24px;
+}
+
+	.forLI {
+	font-family: "Rancho";
+	font-size: 20px;
+}
+
+.forLIColored {
+	color: brown;
+	font-size: 24px;
+}
