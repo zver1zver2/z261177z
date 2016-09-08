@@ -17,27 +17,12 @@ h3 {
 	font-size: 24px;
 }
 
-img {
-	border-radius: 50%;
-}
-.forLI {
+	.forLI {
 	font-family: "Rancho";
 	font-size: 20px;
 }
 
 .forLIColored {
-	font-family: "Rancho";
 	color: brown;
 	font-size: 24px;
-}
-
-.beauty {
-	font-family: "Merienda";
-	font-size: 18px;
-	color: #A0522D;
-}
-
-.aDay {
-	border-top: 2px solid #ccc;
-	padding: 2px 10px 2px 10px;
 }
