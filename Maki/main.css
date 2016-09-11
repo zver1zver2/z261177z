@@ -24,3 +24,11 @@ li {
 .liner {
 	font-size:1.2em;
 }
+
+.lines {
+	border-radius: 20px;
+	text-align:justify;
+	padding: 10px;
+	border:1px solid brown; width:50%;
+	font-family:Courier; font-size:1.2em;
+}
