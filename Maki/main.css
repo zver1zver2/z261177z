@@ -1,0 +1,26 @@
+.end_day {
+	border: 1px black solid;
+	width:1000px;
+}
+
+h3 {
+	font-family:Rancho; 
+	font-size:2.4em;
+}
+
+h1 {
+	font-family:Lobster
+}
+
+h2 {
+	font-family:Amatic SC; 
+	font-size:2.3em;
+}
+
+li {
+	font-size:1.6em;
+}
+
+.liner {
+	font-size:1.2em;
+}
