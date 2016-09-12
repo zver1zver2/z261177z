@@ -1,43 +1,62 @@
 body {
-	background-color: #FFF2E7;
-	color: #3D3C3A;
+    background-color: #FFF2E7;
+    color: #3D3C3A;
 }
+
 h1 {
-	font-family: Lobster;
-	font-size: 40px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	color: #30302F;
+    font-family: Lobster;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: #30302F;
 }
 
 h3 {
-	font-family: 'Amatic SC';
-	font-size: 24px;
+    font-family: 'Chewy', cursive;
+    font-size: 2.2em;
+    color: #412f00;
+    padding: 0px;
+    margin: 0px;
 }
 
+h4 {
+    font-family: 'Baloo Tamma', cursive;
+    font-size: 1.8em;
+}
+
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em;
+}
+
+ul, li {
+	font-size: 1.2em;
+}
 img {
-	border-radius: 50%;
+    border-radius: 50%;
+}
+
+.forLI, .forLIColored {
+    font-family: "Rancho";
 }
 .forLI {
-	font-family: "Rancho";
-	font-size: 20px;
+	color: #003938;
+	font-size: 1.4em;
 }
-
 .forLIColored {
-	font-family: "Rancho";
-	color: brown;
-	font-size: 24px;
+    color: brown;
+    font-size: 1.7em;
 }
 
 .beauty {
-	font-family: "Merienda";
-	font-size: 18px;
-	color: #A0522D;
+    font-family: "Merienda";
+    font-size: 18px;
+    color: #A0522D;
 }
 
 .aDay {
-	border-top: 2px solid #ccc;
-	padding: 2px 10px 2px 10px;
+    border-top: 2px solid #ccc;
+    padding: 2px 10px 2px 10px;
 }
