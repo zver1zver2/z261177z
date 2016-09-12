@@ -1,0 +1,34 @@
+body {
+	background-color: #ffcc66;
+}
+
+h1 {
+	font-family: Ewert;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: Audiowide;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+h4 {
+	font-family: Righteous;
+	font-size: 20px;
+}
+
+.thick-image {
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.smaller-image {
+    width: 150px;
+  }
