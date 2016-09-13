@@ -23,8 +23,6 @@ h3 {
     font-family: 'Chewy', cursive;
     font-size: 2.2em;
     color: #412f00;
-    padding: 0px;
-    margin: 0px;
 }
 
 h4 {
@@ -87,8 +85,3 @@ img {
   width: 610px;
   background-color: #fffab6;
 }
-
-/*.goals img {
-  float: left;
-}
-*/
