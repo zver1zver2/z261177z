@@ -38,6 +38,45 @@ function task1(tSize, loop) {
     }
 }
 
-function hello(a, b) {
-    return a + b;
+function fizzBuzz(num, loop) {
+  var i = 1;
+  // condition function
+  function inCondition() {
+    if (i % 3 == 0 && i % 5 == 0) {
+      document.write(i, " FizzBuzz </br>");
+    }
+    else if (i % 3 == 0) {
+      document.write(i, " Fizz </br>");
+    }
+    else if (i % 5 == 0) {
+      document.write(i, " Buzz </br>");
+    }
+    else {
+      document.write(i, " </br>");
+    }
+  } // end inCondition
+  switch (loop) {
+    case 'while':
+      document.write('<h1 style="color: brown;">WHILE </h1></br>');
+      while (i <= num) {
+        inCondition()
+        i++;
+      }
+      break;
+      case 'do':
+        document.write('<h1 style="color: brown;">DO ... WHILE </h1></br>');
+        do {
+          inCondition();
+          i++;
+        } while (i <= num);
+        break;
+      case 'for':
+        document.write('<h1 style="color: brown;">FOR </h1></br>');
+        for (; i <= num; i++) {
+          inCondition();
+        }
+        break;
+    default:
+      document.write("<h1 style='color: brown;'>Sorry! You didn't type available loops.</h1>");
+  }
 }
