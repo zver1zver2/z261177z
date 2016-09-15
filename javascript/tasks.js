@@ -80,3 +80,34 @@ function fizzBuzz(num, loop) {
       document.write("<h1 style='color: brown;'>Sorry! You didn't type available loops.</h1>");
   }
 }
+
+function nonUnique(listOfNumbers, loop) {
+  var i = 0;
+  var lenOfList = listOfNumbers.length;
+var newList = new Array(0);
+  switch (loop) {
+    case 'for':
+      for (; i < lenOfList; i++) {
+        newList
+        document.write(listOfNumbers[i], "</br>");
+      }
+      break;
+    default:
+      document.write("Sorry. You didn't chose any available loop");
+  }
+}
+
+function nonUniqueElements(data) {
+    var newData = new Array();
+    var a, b;
+    for (i=0; i<data.length; i++) {
+        a = data.indexOf(data[i]);
+        b = data.lastIndexOf(data[i]);
+        //console.log(a, b)
+        if (a != b) {
+          newData.push(data[i]);
+        }
+    }
+    document.write(newData);
+    return newData;
+}
