@@ -108,6 +108,7 @@ function nonUniqueElements(data) {
           newData.push(data[i]);
         }
     }
-    document.write(newData);
-    return newData;
+    console.log(newData);
+    document.write(newData, "</br>");
+    //return newData;
 }
