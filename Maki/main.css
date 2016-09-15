@@ -4,8 +4,8 @@
 }
 
 h3 {
-	font-family:Rancho; 
-	font-size:2.4em;
+	font-family:Orbitron;
+	font-size:1.8em;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	font-family:Amatic SC; 
+	font-family:Amatic SC;
 	font-size:2.3em;
 }
 
@@ -31,4 +31,14 @@ li {
 	padding: 10px;
 	border:1px solid brown; width:50%;
 	font-family:Courier; font-size:1.2em;
+}
+
+.little_font {
+	font-family: 'Indie Flower';
+	font-size: 1.5em;
+}
+
+.big_font {
+	font-family: 'Indie Flower';
+	font-size: 1.9em;
 }
