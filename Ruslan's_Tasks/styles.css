@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(255, 222, 79);
+}
+
+h1{
+  font-family: Anton;
+  font-size: 50px;
+}
+
+h2{
+  font-family:Exo;
+  font-size: 40px;
+}
+
+h3{
+  font-family:Lobster;
+  font-size: 30px;
+}
+
+h4{
+  font-family:Modak;
+  font-size: 10px;
+}
+
+little_class {
+  font-family:Modak;
+  font-size: 10px;
+}
