@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(255, 222, 79);
+  background-color: rgb(203, 235, 255);
 }
 
 h1{
@@ -14,12 +14,13 @@ h2{
 
 h3{
   font-family:Lobster;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h4{
   font-family:Modak;
-  font-size: 10px;
+  padding-left: 5em;
+  font-size: 25px;
 }
 
 little_class {
