@@ -10,33 +10,40 @@
 
 <body>
     <div class="#" style="border: 1px solid #a106a4">
+        <h1 id="myH1">Hello World!</h1>
         <p>HELLO. Here is javascript code</p>
         <div style="border: 2px solid #ccc; width: 200px; margin: 0 auto">
             <form>
                 Type here board size:</br>
-                <input type="text" name="boardSize" value="5"> Select loop type:</br>
-                <input type="radio" name="loopType" checked>for</br>
-                <input type="radio" name="loopType">while</br>
-                <input type="radio" name="loopType">do...while</br>
-                <input type="button" name="btn1" value="Create board">
-            </form>
+                <input type="text" id="columns" placeholder="type here number of COLUNS">
+                <input type="text" id="rows" placeholder="type here number of ROWS"></br>
+                </br>
+                Select loop type:</br>
+                <input type="radio" name="r1" id="loopFor" checked>for</br>
+                <input type="radio" name="r1" id="loopWhile">while</br>
+                <input type="radio" name="r1" id="loopDo">do...while</br>
+                </br>
+                <input type="button" name="btn1" value="Create board" onclick="chessBoard(document.getElementById('columns').value, document.getElementById('rows').value, radioStatusChecking())">
         </div>
-        <script type="text/javascript">
-            /*
-                                            var numList = new Array(10, 9, 10, 10, 9, 8);
-                                            nonUniqueElements(numList);
-                                            nonUniqueElements([1, 2, 3, 1, 3]);
-                                            nonUniqueElements([1, 2, 3, 4, 5]);
-                                            nonUniqueElements([5, 5, 5, 5, 5]);
-                                            nonUniqueElements([10, 9, 10, 10, 9, 8]);
-                                            chessBoard(8, 'for');
-                                            chessBoard(4, 'while');
-                                            chessBoard(2, 'do');
-                                            */
-            chessBoard(12, 'for')
-            chessBoard(23, 'while')
-            chessBoard(9, 'do')
+        <div>
+            <h1 id='idH1'>loop</h1>
+            <p id='idP'></p>
+        </div>
+
+        <script>
+            function radioStatusChecking() {
+                var radioStatus;
+                if (document.getElementById('loopFor').checked) {
+                    radioStatus = 'for'
+                } else if (document.getElementById('loopWhile').checked) {
+                    radioStatus = 'while'
+                } else {
+                    radioStatus = 'do'
+                }
+                return radioStatus;
+            }
         </script>
+        </form>
 </body>
 
 </html>
