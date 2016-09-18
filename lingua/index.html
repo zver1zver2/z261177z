@@ -1,22 +1,68 @@
 <!doctype html>
 
 <html>
-<head>
-  <meta charset="utf-8">
 
-  <title>Lingua - learning English</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="utf-8">
+
+    <title>Lingua - learning English</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-	<h1>LINGUA - learn English easy</h1>
-	<script>
-		
-	</script>
+    <div class="header">
+        <h1 style="text-align: center; padding: 25px 0 0 0;">LINGUA - learn English easy</h1>
+    </div>
+    <div class="main">
+        <div class="allcards">
+            <div class="card">
+                <p>Word-<em>Translation</em></p>
+            </div>
+            <div class="card">
+                <p><em>Translation</em>-Word</p>
+            </div>
+        </div>
+        <div class="review">
+            <div class="questionSide">
+                <p>question</p>
+                <img src="#" alt="#" height="200px" width="200px" />
+            </div>
+            <div class="answerSide">
+                <p class="pAnswer" id="p1">answer1</p>
+                <p class="pAnswer" id="p2">answer1</p>
+                <p class="pAnswer" id="p3">answer1</p>
+                <p class="pAnswer" id="p4">answer1</p>
+                <p class="pAnswer" id="p5">answer1</p>
+                <p class="pAnswer" id="p6">I don't know :(</p>
+                <script>
+                  var pa = document.getElementsByClassName("pAnswer");
+                  pa[0].onmouseover=function(event) {this.style.color="red";}
+                  pa[0].onmouseout=function(event) {this.style.color="black";}
+                </script>
+            </div>
+            <div class="resultSide">
+                <div class="context">
+                    <p>Context:</p>
+                    <p>We started with US. Technical documentation is next, and we need your help. Whether you're a beginner or an experienced developer, you can contribute.</p>
+                </div>
+                <div class="result">
+                    <p>Here will be result</p>
+                    <img src="#" alt="" height="40px" width="40px" />
+                    <input id='b1' type="button" name="name" value="click rere">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Plain information</p>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="js/jscode.js"></script>
 </body>
+
 </html>

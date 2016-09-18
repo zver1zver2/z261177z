@@ -3,15 +3,25 @@ var chessBoard = function(rows, columns, loopType) {
         y = 0;
     switch (loopType) {
         case "for":
-            document.getElementById('idH1').innerHTML = 'Loop FOR';
+            var myNode = document.getElementById("div1");
+            while (myNode.firstChild) {
+                myNode.removeChild(myNode.firstChild);
+            }
+            //document.getElementById('idH1').innerHTML = 'Loop FOR';
             //document.write("</br>Loop 'FOR'</br>");
+            var s = '';
             var pColumns = new Array();
+            var pNodes = [];
+            var element = document.getElementById('div1');
             for (i = 0; i < columns; i++) {
-                //pColumns =
+                pColumns[i] = document.createElement('p');
                 for (y = 0; y < rows; y++) {
-                    document.write("#");
+                    s += '  #  ';
                 }
-                document.write("</br>");
+                pNodes[i] = document.createTextNode(s);
+                s = '';
+                pColumns[i].appendChild(pNodes[i]);
+                element.appendChild(pColumns[i]);
             }
             break;
         case "while":
@@ -32,11 +42,11 @@ var chessBoard = function(rows, columns, loopType) {
                 do {
                     document.write("#");
                     y++;
-                } while(y < rows);
+                } while (y < rows);
                 i++;
                 y = 0;
                 document.write("</br>");
-            } while(i < columns);
+            } while (i < columns);
             break;
         default:
             document.write("Sorry! You didn't select available loops type: FOR, WHILE, DO...WHILE</br>");
