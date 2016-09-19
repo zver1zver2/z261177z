@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id='div1'>
+    </div>
+
+    <script>
+      var s = 'hello world 2';
+      a = parseInt(s);
+      printST(s);
+      printST1(s);
+
+      function printST(text) {
+        el = document.getElementById('div1');
+        var node = document.createElement('h1');
+        var nodeText = document.createTextNode(text);
+        node.appendChild(nodeText);
+        el.appendChild(node);
+      }
+
+      function printST1(text) {
+        el = document.getElementById('div1');
+        var node = document.createElement('h1');
+        var nodeText = document.createTextNode(text);
+        node.appendChild(nodeText);
+        el.appendChild(node);
+}
+
+    </script>
+  </body>
+</html>

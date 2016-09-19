@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Game - Fizz Buzz</title>
+    <script type="text/javascript" src="..\javascript\fizzbuzz.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="#" style="border: 1px solid #999; width: 300px; margin: 0 auto; background-color: #ccc;">
+      <form>
+        type numbers here (start and finish):</br>
+        <input type="text" name="num1" placeholder="type here number one" id="num1">
+        <input type="text" name="num2" placeholder="type here number two" id="num2">
+        </br></br>
+        <div class="#" style="border: 1px ridge #ccc;">
+          select loop type:</br>
+          <input type="radio" name="rd1" id="forR" checked>for</br>
+          <input type="radio" name="rd1" id="whileR">while</br>
+          <input type="radio" name="rd1" id="doR">do...while</br>
+        </br>
+      </br>
+        <input type="button" name="start" value="start" onclick="fizzBuzz(document.getElementById('num1').value, document.getElementById('num2').value, loopType())">
+        </div>
+      </form>
+    </div>
+
+    <div id="viewResult">
+    </div>
+
+  </body>
+</html>
