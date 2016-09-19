@@ -2,10 +2,29 @@ body{
   background-color: rgb(203, 235, 255);
 }
 
-h1{
-  font-family: Anton;
-  font-size: 50px;
-}
+h1 {
+        position: relative;
+        font-size: 70px;
+        margin-top: 0;
+        font-family: 'Lobster', helvetica, arial;
+        text-align: center;
+    }
+
+    h1 a {
+        text-decoration: none;
+        color: #666;
+        position: absolute;
+        text-align: center;
+
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.5)), to(rgba(0,0,0,1)));
+    }
+
+    h1:after {
+        content : 'Here are my tasks';
+        color: #000000;
+        text-shadow: 0 1px 0 white;
+        text-align: center;
+    }
 
 h2{
   font-family:Exo;
@@ -15,12 +34,6 @@ h2{
 h3{
   font-family:Lobster;
   font-size: 20px;
-}
-
-h4{
-  font-family:Modak;
-  padding-left: 5em;
-  font-size: 25px;
 }
 
 little_class {
