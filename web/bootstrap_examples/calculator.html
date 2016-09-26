@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .calculator {
+        border: 3px solid #ccc;
+        padding: 10px;
+        width: 132px;
+      }
+        .littleWide, .btn {
+            border-radius: 4px;
+            margin-top: 5px;
+            height: 30px;
+            width: 30px;
+        }
+
+        .littleWide {
+            width: 64px;
+        }
+
+        .calcD {
+            background-color: #f0f0f0;
+            font-size: 1em;
+            text-align: right;
+            height: 28px;
+            width: 130px;
+        }
+
+        .secCalcD {
+            color: #999;
+            font-size: 0.7em;
+            text-align: right;
+            border: none;
+            border-top: 1px solid #ccc;
+            height: 28px;
+            width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='calculator'>
+        <input id='calcSecondDisplay' class='secCalcD' type="text" value='0' />
+        <br/>
+        <input id='calcDisplay' class='calcD' type="text" value='0' />
+        <br/>
+        <input type='button' class='littleWide' id='c' value='C' />
+        <input type='button' class='btn' id='backspace' value='<--' />
+        <input type='button' class='btn' id='plusMinus' value='+-' />
+        <br/>
+        <input type='button' class='btn' id='1' value='1' />
+        <input type='button' class='btn' id='2' value='2' />
+        <input type='button' class='btn' id='3' value='3' />
+        <input type='button' class='btn' id='plus' value='+' />
+        <br/>
+        <input type='button' class='btn' id='4' value='4' />
+        <input type='button' class='btn' id='5' value='5' />
+        <input type='button' class='btn' id='6' value='6' />
+        <input type='button' class='btn' id='minus' value='-' />
+        <br/>
+        <input type='button' class='btn' id='7' value='7' />
+        <input type='button' class='btn' id='8' value='8' />
+        <input type='button' class='btn' id='9' value='9' />
+        <input type='button' class='btn' id='multiply' value='*' />
+        <br/>
+        <input type='button' class='littleWide' id='0' value='0' />
+        <input type='button' class='btn' id='float' value=',' />
+        <input type='button' class='btn' id='divide' value='/' />
+        <br/>
+        <input type='button' class='btn' id='equal' style='width: 132px;' value='=' />
+    </div>
+    <script type="text/javascript" src='js\calculator.js'></script>
+</body>
+
+</html>
