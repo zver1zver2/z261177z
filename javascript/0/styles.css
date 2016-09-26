@@ -1,0 +1,30 @@
+.container {
+    background-color: #ccc;
+    border: 2px solid #333;
+    height: 540px;
+    width: 540px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cell {
+    background-color: #f4f4f4;
+    border: 2px solid #333;
+    height: 170px;
+    width: 170px;
+    position: absolute;;
+}
+
+.cell:hover {
+  background-color: #ccc;
+}
+
+#c1 {left: 10px; top: 10px;}
+#c2 {left: 182px; top: 10px;}
+#c3 {left: 354px; top: 10px;}
+#c4 {left: 10px; top: 182px;}
+#c5 {left: 182px; top: 182px;}
+#c6 {left: 354px; top: 182px;}
+#c7 {left: 10px; top: 354px;}
+#c8 {left: 182px; top: 354px;}
+#c9 {left: 354px; top: 354px;}
