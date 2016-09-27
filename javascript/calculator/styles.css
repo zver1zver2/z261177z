@@ -1,0 +1,39 @@
+.mDiv {
+  height: auto;
+  width: 332px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  padding: 20px;
+}
+
+.fd, .sd {
+  height: 40px;
+  width: 328px;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+.sd {
+  border-top: 1px solid #ececec;
+}
+.fd {
+  border-bottom: none;
+  height: 30px;
+  color: #7e7e7e;
+  font-size: 0.8em;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  margin-top: 4px;
+  font-size: 2em;
+}
+
+.btnWide {
+  width: 164px;
+}
+
+.btnSuperWide {
+  width: 332px;
+}
