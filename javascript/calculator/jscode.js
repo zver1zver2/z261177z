@@ -110,7 +110,6 @@ function btnEqual() {
   } else {
     switch (fLastChar) {
       case '+':
-
       break;
       case '-':
       break;
